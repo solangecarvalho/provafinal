@@ -7,7 +7,7 @@ public class Ex08 {
 		int j = 0;
 		for (char cc : c) {
 			int i = Integer.parseInt(String.valueOf(cc));
-			if (i < j) 
+			if (i > j) 
 				j = i;
 			else
 					j--;

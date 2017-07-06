@@ -7,7 +7,7 @@ public class Ex02 {
 		for (int i = 0; i < 2; i++) {
 			for (int j = 0; j < 2; j++) {
 				if (j == 1) {
-					soma+=calc(ra, j * 1);
+					soma+=calc(ra, j * i);
 				}
 			}
 			
@@ -19,7 +19,7 @@ public class Ex02 {
 		if (i >= str.length()) {
 			return 0;			
 		} else {
-			int add = Integer.parseInt(str.substring(i +2, i + 3));
+			int add = Integer.parseInt(str.substring(i + 2, i + 3));
 			return add + i;
 		}
 	}
